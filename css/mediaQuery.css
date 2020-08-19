@@ -1,0 +1,137 @@
+/* smart phones & tablets */
+@media (max-width : 767px)
+{
+    /*nav bar*/
+    .navbar-inverse .navbar-nav > .active > a,
+    .navbar-inverse .navbar-nav > .active > a:hover,
+    .navbar-inverse .navbar-nav > .active > a:focus
+    {
+        border-radius: 5px;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu .divider
+    {
+        background-color: #eb0000;
+    }
+
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a
+    {
+        transition: margin .5s;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover
+    {
+        margin-left: 7px;
+
+        transition: margin .5s;
+
+        border-radius: 5px;
+        background-color: #eb0000;
+    }
+
+
+    /*nav bar*/
+
+
+
+    /*our Team*/
+    .our-team .person img
+    {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+    /*our Team*/
+    /*subscribe*/
+    .subscribe .form-control
+    {
+        margin: 20px auto;
+    }
+    /*subscribe*/
+    /*our-skills*/
+    .our-skills .progress-bar
+    {
+        width: 300px !important;
+    }
+    .our-skills .team-info
+    {
+        margin-top: 20px;
+    }
+    /*our-skills*/
+    /*contact us*/
+    .contact-us .left input
+    {
+        width: 300px;
+    }
+    .contact-us .right textarea
+    {
+        width: 300px;
+        margin-left: 230px;
+    }
+    .contact-us .right button
+    {
+        width: 300px;
+        margin-left: 235px;
+    }
+    /*contact us*/
+    /*our-clients*/
+    .our-clients img
+    {
+        margin-bottom: 40px;
+    }
+    /*our-clients*/
+    /*siteFooter*/
+    .siteFooter .first
+    {
+        margin-bottom: 20px;
+    }
+    .siteFooter .first h3
+    {
+        font-size: 25px;
+
+        padding-bottom: 20px;
+    }
+    .siteFooter .first .sitemapImages
+    {
+        margin: 20px 0 20px 0;
+    }
+    .siteFooter .second
+    {
+        margin-bottom: 20px;
+    }
+    .siteFooter .second h3
+    {
+        font-size: 25px;
+    }
+
+    .siteFooter .second .article img
+    {
+        margin-top: 15px;
+    }
+
+    .siteFooter .second .article .text p
+    {
+        margin: 10px 0 10px 5px;
+    }
+
+    .siteFooter .third  h3
+    {
+        margin-bottom: 30px;
+    }
+    /*siteFooter*/
+}
+
+
+
+
+
+
+
+
+
+/*small screens*/
+@media (max-width : 767px)
+{
+}
+
+/*medium screens*/
+@media (max-width : 767px)
+{
+}

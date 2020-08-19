@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- IE meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- first mobile meta -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap3_1 [ HOME ]</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaQuery.css">
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700'>
+    <!-- <script src="https://kit.fontawesome.com/e16d9ee17b.js" crossorigin="anonymous"></script> -->
+  </head>
+  <body>
+
+    <!-- /**************** Navba ****************/  -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> <!-- الثلاث شرطات الي بيظهرو ف شاشة الموبايل -->
+          </button>
+          <a class="navbar-brand hvr-pulse-shrink" href="#">AH <span>MED</span></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">HOME <span class="sr-only">(current)</span></a></li>
+            <li><a href="about.html">ABOUT ME</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Service <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">SKILLS</a></li>
+                <li><a href="#">testimonials</a></li>
+                <li><a href="#">RESUME</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Contact me</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!-- /**************** Navba ****************/  -->
+
+    <!-- /**************** carousel ****************/  -->
+    <div id="my-slider" class="mycarousel carousel slide hidden-xs" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators hidden-sm">
+        <li data-target="#my-slider" data-slide-to="0" class="active"></li>
+        <li data-target="#my-slider" data-slide-to="1"></li>
+        <li data-target="#my-slider" data-slide-to="2"></li>
+
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="images/slider1.jpg" alt="...">
+          <div class=" carousel-caption hidden-sm hidden-xs">
+            <h2>Engineering</h2>
+            <p class="lead">Transition animations not supported in Internet Explorer 8 & 9
+              Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't
+              support the necessary CSS properties. Thus, there are no slide transition animations
+               when using these browsers. We have intentionally decided not to include jQuery-based
+               fallbacks for the transitions.</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/slider2.jpg" alt="...">
+          <div class="carousel-caption hidden-sm hidden-xs">
+            <h2>Designing</h2>
+            <p class="lead">Transition animations not supported in Internet Explorer 8 & 9
+              Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't
+              support the necessary CSS properties. Thus, there are no slide transition animations
+               when using these browsers. We have intentionally decided not to include jQuery-based
+               fallbacks for the transitions.</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/slider3.jpg" alt="...">
+          <div class=" carousel-caption hidden-sm hidden-xs ">
+            <h2>Programming</h2>
+            <p class="lead">Transition animations not supported in Internet Explorer 8 & 9
+              Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't
+              support the necessary CSS properties. Thus, there are no slide transition animations
+               when using these browsers. We have intentionally decided not to include jQuery-based
+               fallbacks for the transitions.</p>          </div>
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#my-slider" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#my-slider" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- /**************** carousel ****************/  -->
+
+    <!-- /**************** section about ****************/  -->
+    <section class="about text-center">
+      <div class="container">
+        <h1 class="hidden-xs">Ahmed Ayman</h1>
+
+        <h2 class="visible-xs">Ahmed Ayman</h2> <!-- for mobile -->
+        <p>Transition animations not supported in Internet Explorer 8 & 9
+          Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't
+          support the necessary CSS properties. Thus, there are no slide transition animations
+           when using these browsers. We have intentionally decided not to include jQuery-based
+           fallbacks for the transitions.</p>
+      </div>
+    </section>
+    <!-- /**************** section about ****************/  -->
+
+    <!-- /**************** section features ****************/  -->
+    <section class="features text-center">
+      <div class="container">
+        <h2><b>Our Features</b></h2>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="feat">
+              <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+              <h3>100% Responsive</h3>
+              <p>Transition animations not supported in Internet Explorer 8 & 9
+                Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't
+                support the necessary CSS properties. Thus, there are no slide transition animations
+                 when using these browsers. We have intentionally decided not to include jQuery-based
+                 fallbacks for the transitions.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="feat">
+              <span class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></span>
+              <h3>Retina Ready</h3>
+              <p>Transition animations not supported in Internet Explorer 8 & 9
+                Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't
+                support the necessary CSS properties. Thus, there are no slide transition animations
+                 when using these browsers. We have intentionally decided not to include jQuery-based
+                 fallbacks for the transitions.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="feat">
+              <span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span>
+              <h3>Awsome Dispaly</h3>
+              <p>Transition animations not supported in Internet Explorer 8 & 9
+                Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't
+                support the necessary CSS properties. Thus, there are no slide transition animations
+                 when using these browsers. We have intentionally decided not to include jQuery-based
+                 fallbacks for the transitions.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="feat">
+              <span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>
+              <h3>Well Documented</h3>
+              <p>Transition animations not supported in Internet Explorer 8 & 9
+                Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't
+                support the necessary CSS properties. Thus, there are no slide transition animations
+                 when using these browsers. We have intentionally decided not to include jQuery-based
+                 fallbacks for the transitions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /**************** section features ****************/  -->
+
+    <!-- /**************** section carousel testimonials ****************/  -->
+    <section class="testimonials text-center">
+      <div class="container">
+        <h2 class="h1" >What Our Clients Say </h2>
+        <div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <p class='lead'>Transition animations not supported in Internet Explorer 8 & 9
+                Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't
+                support the necessary CSS properties. Thus, there are no slide transition animations
+                 when using these browsers. We have intentionally decided not to include jQuery-based
+                 fallbacks for the transitions.</p>
+              <span>name1</span>
+            </div>
+            <div class="item">
+              <p class='lead'>Transition animations not supported in Internet Explorer 8 & 9
+                Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't
+                support the necessary CSS properties. Thus, there are no slide transition animations
+                 when using these browsers. We have intentionally decided not to include jQuery-based
+                 fallbacks for the transitions.</p>
+              <span>name2</span>
+            </div>
+            <div class="item">
+              <p class='lead'>Transition animations not supported in Internet Explorer 8 & 9
+                Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't
+                support the necessary CSS properties. Thus, there are no slide transition animations
+                 when using these browsers. We have intentionally decided not to include jQuery-based
+                 fallbacks for the transitions.</p>
+              <span>name3</span>
+            </div>
+          </div>
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-testimonials" data-slide-to="0" class="active">
+              <img src="images/vector1.jpg" alt="">
+            </li>
+            <li data-target="#carousel-testimonials" data-slide-to="1">
+              <img src="images/vector2.jpg" alt="">
+            </li>
+            <li data-target="#carousel-testimonials" data-slide-to="2">
+              <img src="images/vector3.jpg" alt="">
+
+            </li>
+          </ol>
+        </div>
+
+      </div>
+    </section>
+    <!-- /**************** section carousel testimonials ****************/  -->
+
+    <!-- /**************** section prices ****************/  -->
+    <section class="prices">
+      <div class="container text-center">
+        <h2 class="h1">Our Amazing  Prices</h2>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="price-box">
+
+            <h2>Plan #1</h2>
+            <p class="center-block">40$</p>
+            <ul class="list-unstyled">
+              <li>Space : 30GB</li>
+              <li>Space : 30GB</li>
+              <li>Space : 30GB</li>
+              <li>Space : 30GB</li>
+              <li>Space : 30GB</li>
+            </ul>
+            <a href="#" class="btn btn-default">Order Now</a>
+
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="price-box">
+
+            <h2>Plan #2</h2>
+            <p class="center-block">50$</p>
+            <ul class="list-unstyled">
+              <li>Space : 30GB</li>
+              <li>Space : 30GB</li>
+              <li>Space : 30GB</li>
+              <li>Space : 30GB</li>
+              <li>Space : 30GB</li>
+            </ul>
+            <a href="#" class="btn btn-default">Order Now</a>
+
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="price-box">
+
+            <h2>Plan #3</h2>
+            <p class="center-block">60$</p>
+            <ul class="list-unstyled">
+              <li>Space : 30GB</li>
+              <li>Space : 30GB</li>
+              <li>Space : 30GB</li>
+              <li>Space : 30GB</li>
+              <li>Space : 30GB</li>
+            </ul>
+            <a href="#" class="btn btn-default">Order Now</a>
+
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="price-box">
+
+            <h2>Plan #4</h2>
+            <p class="center-block">70$</p>
+            <ul class="list-unstyled">
+              <li>Space : 30GB</li>
+              <li>Space : 30GB</li>
+              <li>Space : 30GB</li>
+              <li>Space : 30GB</li>
+              <li>Space : 30GB</li>
+            </ul>
+            <a href="#" class="btn btn-default">Order Now</a>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- /**************** section prices ****************/  -->
+
+    <!-- /**************** section our team ****************/  -->
+    <section class="our-team text-center">
+      <div class="for-opacity">
+        <div class="container">
+          <h2>Meet Our Awesome Team</h2>
+          <div class="row">
+
+            <div class="col-lg-3 col-md-6">
+              <div class="person">
+                <img class="img-circle" src="images/1.jpg" width='263' height="197">
+                <h3>Jan Koum</h3>
+                <p>Jan Koum is the CEO and co-founder with Brian Acton of WhatsApp</p>
+                <div class="icons">
+                  <a href="https://www.google.com"><i class="fab fa-google"></i></a>
+                  <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                  <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="person">
+                <img class="img-circle" src="images/2.jpg">
+                <h3>Timothy Cook</h3>
+                <p>Timothy Donald Cook is the chief executive officer of Apple Inc</p>
+                <div class="icons">
+                  <i class="fab fa-google"></i>
+                  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-youtube"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="person">
+                <img class="img-circle" src="images/3.jpg">
+                <h3>Mark Zuckerberg</h3>
+                <p>Mark Elliot Zuckerberg is known for co-founding Facebook, Inc</p>
+                <div class="icons">
+                  <i class="fab fa-google"></i>
+                  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-youtube"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="person">
+                <img class="img-circle" src="images/4.jpg" alt="">
+                <h3>Satya Nadella</h3>
+                <p>Satya Narayana Nadella is the chief executive officer (CEO) of Microsoft</p>
+                <div class="icons">
+                  <i class="fab fa-google"></i>
+                  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-youtube"></i>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /**************** section our team ****************/  -->
+
+    <!-- /**************** section subscribe ****************/  -->
+    <section class="subscribe text-center">
+      <div class="container">
+        <h2>Keep In Touch</h2>
+        <p>Sign Up For Newsletter Don't Worry About Spam We Hate It Too</p>
+        <form class="form-inline">
+          <input class="form-control input-lg" type="text" placeholder="write your email">
+          <button class="btn btn-danger btn-lg" type="button">
+            <i class="fa fa-edit fa-lg"></i> Subscribe
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- /**************** section subscribe ****************/  -->
+
+    <!-- /**************** section statistics ****************/  -->
+    <section class="statistics text-center">
+      <div class="for-opacity">
+        <div class="container">
+          <h2>Our Main Statistics</h2>
+          <div class="row">
+
+            <div class="item col-lg-3 col-md-6 col-sm-6">
+            <i class="fas fa-users fa-4x"></i>
+            <h3>9,550</h3>
+            <p>Satisfied users</p>
+            <hr class="hidden-lg">
+            </div>
+
+            <div class="item col-lg-3 col-md-6 col-sm-6">
+              <i class="fas fa-comments fa-4x"></i>
+              <h3>25,600</h3>
+              <p>Posted comments</p>
+              <hr class="hidden-lg">
+            </div>
+
+            <div class="item col-lg-3 col-md-6 col-sm-6">
+              <i class="fas fa-briefcase fa-4x"></i>
+              <h3>3,260</h3>
+              <p>Project done</p>
+              <hr class="hidden-lg">
+            </div>
+
+            <div class="item col-lg-3 col-md-6 col-sm-6">
+              <i class="fas fa-dot-circle fa-4x"></i>
+              <h3>95,512</h3>
+              <p>Tickets Archived</p>
+              <hr class="hidden-lg">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /**************** section statistics ****************/  -->
+
+    <!-- /**************** section our skills ****************/  -->
+    <section class="our-skills">
+      <h2 class="text-center">Our Skills</h2>
+      <div class="container">
+          <div class="skills-progress col-lg-6 col-xs-12 text-center">
+
+            <div class="progress-bar progress-bar-sucess progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+              HTML/HTML5
+            </div>
+            <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+              CSS/CSS3
+            </div>
+            <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+              JAVASCRIPT
+            </div>
+            <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+              PugJs/Sass
+            </div>
+            <div class="progress-bar progress-bar-sucess progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+              Angular
+            </div>
+        </div>
+        <div class="col-lg-6 col-xs-12 ">
+          <div class="team-info">
+            <h3>Team</h3>
+            <p class="lead">Transition animations not supported in Internet Explorer 8 & 9
+              Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't
+              support the necessary CSS properties.</p>
+            <button class="btn btn-danger" style="background-color: #eb0000;">Talk With THe Professional</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /**************** section our skills ****************/  -->
+
+    <!-- /**************** section Contact Us ****************/  -->
+    <section class="contact-us text-center">
+      <div class="for-opacity">
+        <div class="container">
+
+          <div class="first col-xs-12">
+            <span><i class="fas fa-headphones fa-4x" style="color:white"></i></span>
+            <h2>Tell Us Want You Fell</h2>
+            <p>Feel Free To Contact Us Anything</p>
+          </div>
+          <div class="second col-xs-12">
+            <div class="left col-lg-6">
+              <input type="text" name="userName" value="" placeholder="UserName">
+              <input type="email" name="email" value="" placeholder="Email">
+              <input type="number" name="number" value="" placeholder="Call Phone">
+            </div>
+            <div class="right col-lg-6">
+              <textarea name="name" rows="8" cols="80" placeholder="Your Message"></textarea>
+              <button type="button" class="btn btn-danger">Contact Us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /**************** section Contact Us ****************/  -->
+
+    <!-- /**************** section Our Clients ****************/  -->
+    <section class="our-clients">
+      <div class="container">
+        <div class="row">
+
+          <ul class="list-unstyled">
+            <li class="col-md-2 col-xs-6">
+              <img src="images/ourClients/bbc.png" alt="">
+            </li>
+            <li class="col-md-2 col-xs-6">
+              <img src="images/ourClients/cnn.png" alt="">
+            </li>
+            <li class="col-md-2 col-xs-6">
+              <img src="images/ourClients/forbes.png" alt="">
+            </li>
+            <li class="col-md-2 col-xs-6">
+              <img src="images/ourClients/techradar.png" alt="">
+            </li>
+            <li class="col-md-2 col-xs-6">
+              <img src="images/ourClients/wired.png" alt="">
+            </li>
+            <li class="col-md-2 col-xs-6">
+              <img src="images/ourClients/wsj.png" alt="">
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </section>
+    <!-- /**************** section Our Clients ****************/  -->
+
+    <!-- /**************** section footer ****************/  -->
+    <section class="siteFooter">
+      <div class="container">
+        <div class="row">
+          <div class="first col-md-4 col-xs-12">
+            <h3 class="text-center">Sitemap</h3>
+            <span class="col-md-4"><a href="#">Home</a></span>
+            <span class="col-md-4"><a href="#">About</a></span>
+            <span class="col-md-4"><a href="#">Compeny</a></span>
+            <span class="col-md-4"><a href="#">Code</a></span>
+            <span class="col-md-4"><a href="#">Design</a></span>
+            <span class="col-md-4"><a href="#">Host</a></span>
+            <span class="col-md-4"><a href="#">Solutions</a></span>
+            <span class="col-md-4"><a href="#">siteHome</a></span>
+            <span class="col-md-4"><a href="#">Contact</a></span>
+            <div class="sitemapImages col-md-2 col-xs-2">
+              <a href="https://facebook.com" target="_blank"><img src="images/sitemap/facebook.png" alt=""></a>
+            </div>
+            <div class="sitemapImages col-md-2 col-xs-2">
+              <a href="https://google.com" target="_blank"><img src="images/sitemap/google.png" alt=""></a>
+            </div>
+            <div class="sitemapImages col-md-2 col-xs-2">
+              <a href="https://twitter.com" target="_blank"><img src="images/sitemap/twitter.png" alt=""></a>
+            </div>
+            <div class="sitemapImages col-md-2 col-xs-2">
+              <a href="#"><img src="images/sitemap/email.png" alt=""></a>
+            </div>
+            <div class="sitemapImages col-md-2 col-xs-2">
+              <a href="#"><img src="images/sitemap/pinterest.png" alt=""></a>
+            </div>
+            <div class="sitemapImages col-md-2 col-xs-2">
+              <a href="#"><img src="images/sitemap/rss.png" alt=""></a>
+            </div>
+          </div>
+          <div class="second col-md-4 col-xs-12">
+            <h3 class="text-center">Latest Articles</h3>
+            <div class="article col-md-12" >
+              <div class="imgIcon col-md-3 col-xs-4">
+                <img src="images/latestArticles/01.jpg" alt="">
+              </div>
+              <div class="text col-md-9 col-xs-8 text-left">
+                <h4>Programming</h4>
+                <p>This Is Some Text About Programming Describe The Media Of Bootstrap 3.2.0</p>
+              </div>
+            </div>
+            <div class="article col-md-12">
+              <div class="imgIcon col-md-3 col-xs-4">
+                <img src="images/latestArticles/02.jpg" alt="">
+              </div>
+              <div class="text col-md-9 col-xs-8 text-left">
+                <h4>Coding</h4>
+                <p>This Is Some Text About Programming Describe The Media Of Bootstrap 3.2.0</p>
+              </div>
+            </div>
+            <div class="article col-md-12">
+              <div class="imgIcon col-md-3 col-xs-4">
+                <img src="images/latestArticles/03.jpg" alt="">
+              </div>
+              <div class="text col-md-9 col-xs-8 text-left">
+                <h4>Web Design</h4>
+                <p>This Is Some Text About Programming Describe The Media Of Bootstrap 3.2.0</p>
+              </div>
+            </div>
+          </div>
+          <div class="third col-md-4 col-xs-12">
+            <h3 class="text-center">Our Awesome Works</h3>
+            <div class="works col-xs-6">
+              <img src="images/ourWork/01.jpg" class="col-md-6">
+            </div>
+            <div class="works col-xs-6">
+              <img src="images/ourWork/02.jpg" class="col-md-6">
+            </div>
+            <div class="works col-xs-6">
+              <img src="images/ourWork/03.jpg" class="col-md-6">
+            </div>
+            <div class="works col-xs-6">
+              <img src="images/ourWork/04.jpg" class="col-md-6">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /**************** section footer ****************/  -->
+
+    <!-- /**************** section copyRight ****************/  -->
+    <section class="copyRight text-center">
+      <p>2020 © All Rights Reserved.</p>
+    </section>
+    <!-- /**************** section copyRight ****************/  -->
+
+    <!-- /**************** section loading ****************/  -->
+    <section class="loading-overlay">
+      <div class="sk-folding-cube">
+        <div class="sk-cube1 sk-cube"></div>
+        <div class="sk-cube2 sk-cube"></div>
+        <div class="sk-cube4 sk-cube"></div>
+        <div class="sk-cube3 sk-cube"></div>
+      </div>
+    </section>
+    <!-- /**************** section loading ****************/  -->
+
+    <!-- /**************** section scroll to top ****************/  -->
+    <div class="scroll-top" id="scroll-top">
+      <i class="fas fa-arrow-alt-circle-up fa-3x"></i>
+    </div>
+    <!-- /**************** section scroll to top ****************/  -->
+
+
+
+
+
+
+
+
+
+    <!--              scripts                   -->
+    <script src="js/jquery-1.11.1.js.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
